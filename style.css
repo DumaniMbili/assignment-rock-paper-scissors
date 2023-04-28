@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Digital-7";
+  src: url(./fonts/digital_7/digital-7.ttf);
+}
+body {
+  background-color: black;
+  font-family: "Digital-7", sans-serif;
+  color: green;
+}
+
+button {
+  border-radius: 20px;
+  font-size: 0;
+  padding: 40px;
+}
+
+#rock {
+  background-image: url("./images/rock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#paper {
+  background-image: url("./images/paper.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#scissors {
+  background-image: url("./images/scissors.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#rock:hover {
+  background-image: url("./images/rock.gif");
+}
+
+#paper:hover {
+  background-image: url("./images/paper.gif");
+}
+
+#scissors:hover {
+  background-image: url("./images/scissors.gif");
+}
